@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <ul style="list-style: none;"  class="list-class">
+        <app-user 
+        *ngFor="let user of usersData" 
+        [userDetails]="user" ></app-user>
+      </ul>
+    </div>
+  </div>
+</div>
